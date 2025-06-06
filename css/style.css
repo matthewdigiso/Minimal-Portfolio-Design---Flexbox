@@ -1,0 +1,69 @@
+:root {
+    --teal: #00bfa5;
+    --black: #000;
+    --white: #fff;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: var(--white);
+    color: var(--black);
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  nav a {
+    color: var(--teal);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: var(--teal);
+    color: var(--white);
+  }
+  
+  .content-section {
+    padding: 3rem 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .card {
+    background: var(--white);
+    border: 2px solid var(--teal);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+   
